@@ -12,6 +12,12 @@ Command line interface to some of Boundary's public APIs. Commands include defin
 
 [https://github.com/boundary/boundary-api-cli](https://github.com/boundary/boundary-api-cli)
 
+### luacheck
+
+Command line tool for linting and static analysis of lua code.
+
+[https://github.com/mpeterv/luacheck#installation](https://github.com/mpeterv/luacheck#installation)
+
 ### Haroopad
 Editor that provides realtime rendering of markdown.
 

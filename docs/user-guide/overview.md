@@ -9,7 +9,7 @@ The contents of a meter plugin are housed in a GitHub repository so that the can
 A typical plugin consists of:
 
 **README.md**
-Documentation that describes that platforms supported by the plugin, along with any dependent software and/or configuration required for the plugin to run.
+Documentation that describes the platforms supported by the plugin, along with any dependent software and/or configuration required for the plugin to run.
 
 **plugin.json**
 Meter plugin manifest that contains metadata about the meter plugin: command to run to start the plugin, inputs to the plugin, metric values created by the plugin, dashboard definitions, as a partial list.
@@ -37,7 +37,7 @@ the simplest technique whereby the plugin performs a single poll of metrics. The
 
 ## Programming Languages
 
-Meter Plugins can be created in any programming or scripting language that can write output to standard out. Boundary's meter version 4.0 or later includes a [lua](http://en.wikipedia.org/wiki/Lua_(programming_language)) interpreter which eliminates the need for installing NodeJS, Python, or other interpreter your plugin depends upon.
+Meter Plugins can be created in any programming or scripting language that can write output to standard out. Boundary's meter version 4.0 or later includes a [lua](http://en.wikipedia.org/wiki/Lua_(programming_language)) 5.1 interpreter which eliminates the need for installing NodeJS, Python, or other interpreter your plugin depends upon.
 
 ## Tools
 
